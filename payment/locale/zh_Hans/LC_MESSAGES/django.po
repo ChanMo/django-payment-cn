@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-02 15:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: payment/apps.py:6
+msgid "payment"
+msgstr "支付"
+
+#: payment/models.py:6
+msgid "wechat"
+msgstr "微信"
+
+#: payment/models.py:7
+msgid "alipay"
+msgstr "支付宝"
+
+#: payment/models.py:11
+msgid "recharge"
+msgstr "充值"
+
+#: payment/models.py:12
+msgid "shoping"
+msgstr "购物"
+
+#: payment/models.py:17
+msgid "user"
+msgstr "用户"
+
+#: payment/models.py:18
+msgid "method"
+msgstr "方式"
+
+#: payment/models.py:20
+msgid "action"
+msgstr "操作"
+
+#: payment/models.py:22
+msgid "openid"
+msgstr ""
+
+#: payment/models.py:24
+msgid "number"
+msgstr "编号"
+
+#: payment/models.py:25
+msgid "amount"
+msgstr "金额"
+
+#: payment/models.py:27
+msgid "description"
+msgstr "描述"
+
+#: payment/models.py:28
+msgid "extra"
+msgstr "其他"
+
+#: payment/models.py:29
+msgid "is success"
+msgstr "成功"
+
+#: payment/models.py:30
+msgid "error message"
+msgstr "错误信息"
+
+#: payment/models.py:32
+msgid "created"
+msgstr ""
+
+#: payment/models.py:33
+msgid "updated"
+msgstr ""
+
+#: payment/models.py:40 payment/models.py:41
+msgid "log"
+msgstr "记录"
