@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include payment/locale/*
+recursive-include payment/migrations/*

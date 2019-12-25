@@ -4,5 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('pay/', PayView.as_view()),
-    path('notify/<str:method>/', notify_view),
+    path('notify/<slug:platform>/', notify_view),
 ]

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 15:44+0800\n"
+"POT-Creation-Date: 2019-12-20 17:44+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,70 +22,74 @@ msgstr ""
 msgid "payment"
 msgstr "支付"
 
-#: payment/models.py:6
+#: payment/models.py:13
+msgid "douyin"
+msgstr "抖音"
+
+#: payment/models.py:14
 msgid "wechat"
 msgstr "微信"
 
-#: payment/models.py:7
+#: payment/models.py:15
 msgid "alipay"
 msgstr "支付宝"
 
-#: payment/models.py:11
+#: payment/models.py:19
 msgid "recharge"
 msgstr "充值"
 
-#: payment/models.py:12
+#: payment/models.py:20
 msgid "shoping"
 msgstr "购物"
 
-#: payment/models.py:17
+#: payment/models.py:59
 msgid "user"
 msgstr "用户"
 
-#: payment/models.py:18
+#: payment/models.py:60
 msgid "method"
 msgstr "方式"
 
-#: payment/models.py:20
+#: payment/models.py:62
 msgid "action"
 msgstr "操作"
 
-#: payment/models.py:22
+#: payment/models.py:64
 msgid "openid"
 msgstr ""
 
-#: payment/models.py:24
+#: payment/models.py:66
 msgid "number"
 msgstr "编号"
 
-#: payment/models.py:25
+#: payment/models.py:67
 msgid "amount"
 msgstr "金额"
 
-#: payment/models.py:27
+#: payment/models.py:69
 msgid "description"
 msgstr "描述"
 
-#: payment/models.py:28
+#: payment/models.py:70
 msgid "extra"
 msgstr "其他"
 
-#: payment/models.py:29
+#: payment/models.py:71
 msgid "is success"
 msgstr "成功"
 
-#: payment/models.py:30
+#: payment/models.py:72
 msgid "error message"
 msgstr "错误信息"
 
-#: payment/models.py:32
+#: payment/models.py:74
 msgid "created"
-msgstr ""
+msgstr "创建时间"
 
-#: payment/models.py:33
+#: payment/models.py:75
 msgid "updated"
-msgstr ""
+msgstr "更新时间"
 
-#: payment/models.py:40 payment/models.py:41
-msgid "log"
-msgstr "记录"
+#: payment/models.py:83 payment/models.py:84
+msgid "payment log"
+msgstr "付款记录"

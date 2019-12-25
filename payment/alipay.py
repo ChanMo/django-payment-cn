@@ -35,13 +35,14 @@ class Alipay:
         " 获取支付数据 "
         model = AlipayTradeAppPayModel()
         model.total_amount = str(order.amount)
-        model.subject = "DEMO"
+        model.subject = ""
         model.out_trade_no = order.number
         request = AlipayTradeAppPayRequest(biz_model=model)
-        request.notify_url = '/payment/notify/alipay/'
+        request.notify_url = ''
         response = self.client.sdk_execute(request)
 
         return {'detail':response}
+
 
     def parse_result(self, result):
         " 解析异步通知返回值 "
